@@ -1,0 +1,522 @@
+/* Import Poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif; /* Apply Poppins */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px; /* Slightly more padding */
+  /* More complex, colorful dark gradient background */
+  background: linear-gradient(
+    135deg,
+    #1a1a2e 0%,
+    #0f0f2a 60%,
+    #4b0082 100%
+  ); /* Add some dark violet */
+  color: #e0e0e0; /* Light text color */
+  margin: 0;
+  overflow-x: hidden; /* Prevent body horizontal scroll unless periodic table needs it */
+  min-height: 100vh; /* Ensure body takes at least full viewport height */
+}
+
+h1 {
+  /* More intense, multi-color glow for the title */
+  color: #00ffff; /* Cyan */
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff,
+    0 0 30px #8a2be2, 0 0 40px #8a2be2; /* Cyan + BlueViolet glow */
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: 700; /* Bold Poppins */
+  letter-spacing: 2px; /* More spacing */
+  text-align: center;
+}
+
+/* --- Legend Styles --- */
+#legend {
+  margin-bottom: 25px; /* Increased margin */
+  padding: 15px;
+  border: 2px solid #8a2be2; /* Vibrant border */
+  background-color: rgba(
+    42,
+    42,
+    74,
+    0.8
+  ); /* Semi-transparent slightly lighter dark background */
+  color: #e0e0e0;
+  width: 100%;
+  max-width: 1200px; /* Match periodic table container width */
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.6), 0 0 20px rgba(138, 43, 226, 0.4); /* Glowing border shadow */
+  box-sizing: border-box;
+  border-radius: 10px; /* More rounded corners */
+}
+
+#legend h3 {
+  margin-top: 0;
+  margin-bottom: 15px; /* Increased margin */
+  color: #00ffff; /* Matching H1 color */
+  text-align: center;
+  font-weight: 600; /* SemiBold Poppins */
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.5); /* Subtle glow */
+}
+
+#legend-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* More space between items */
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.95em; /* Slightly larger font */
+  font-weight: 500; /* Medium Poppins */
+}
+
+.legend-color-swatch {
+  display: inline-block;
+  width: 22px; /* Slightly larger swatch */
+  height: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+  margin-right: 8px; /* More space */
+  flex-shrink: 0;
+  border-radius: 4px; /* Rounded corners for swatch */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Shadow on swatch */
+}
+
+.legend-text {
+  /* Inherits color from body */
+}
+
+/* --- Periodic Table Styles --- */
+
+.periodic-table-container {
+  width: 100%;
+  max-width: 1200px;
+  overflow-x: auto; /* Add scroll if table exceeds container width */
+  margin-bottom: 30px;
+  /* Add padding on all sides to prevent hover overflow and border clipping */
+  padding-left: 40px;
+  padding-right: 40px;
+  /* Increased and equal top/bottom padding */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box; /* Include padding in the container's total width */
+}
+
+#periodic-table {
+  display: grid;
+  grid-template-columns: repeat(18, minmax(0, 1fr));
+  grid-auto-rows: minmax(
+    65px,
+    auto
+  ); /* Increased default row height to accommodate names */
+  gap: 5px; /* Standard gap */
+  min-width: 100%; /* Ensure grid uses full container width (minus padding) */
+}
+
+.element {
+  /* Subtle border, main color from background */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; /* Smoother transition for multiple properties */
+  font-size: 0.8em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 6px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Standard shadow for depth */
+  /* Default text color - will be overridden by category */
+  color: #333;
+  z-index: 1; /* Give elements a default z-index */
+}
+
+/* Override element text color for lighter categories */
+.element.noble-gas,
+.element.nonmetal,
+.element.metalloid,
+.element.post-transition-metal {
+  color: #1a1a2e; /* Dark text stands out better on lighter backgrounds */
+}
+/* For very bright colors, maybe light text is better? Adjust as needed */
+.element.alkali-metal,
+.element.alkaline-earth-metal,
+.element.transition-metal,
+.element.lanthanide,
+.element.actinide,
+.element.unknown {
+  color: #f0f0f0; /* Light text for darker backgrounds */
+}
+
+.element:hover {
+  transform: scale(1.1) translateY(-5px); /* Lift and scale on hover */
+  /* More intense, multi-color glow on hover */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5),
+    /* Keep some depth */ 0 0 15px rgba(0, 255, 255, 0.7),
+    /* Cyan glow */ 0 0 20px rgba(138, 43, 226, 0.5),
+    /* Violet glow */ 0 0 25px rgba(255, 69, 0, 0.4); /* Orange glow */
+  z-index: 2; /* Bring hovered element to front */
+  border-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Slightly brighter border on hover */
+}
+
+/* Positioning text within the element box */
+.element .atomic-number {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5); /* Subtle dark number */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2); /* Subtle shadow for contrast */
+}
+
+.element.noble-gas .atomic-number,
+.element.nonmetal .atomic-number,
+.element.metalloid .atomic-number,
+.element.post-transition-metal .atomic-number {
+  color: rgba(0, 0, 0, 0.5); /* Darker number on light backgrounds */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+}
+.element.alkali-metal .atomic-number,
+.element.alkaline-earth-metal .atomic-number,
+.element.transition-metal .atomic-number,
+.element.lanthanide .atomic-number,
+.element.actinide .atomic-number,
+.element.unknown .atomic-number {
+  color: rgba(255, 255, 255, 0.5); /* Lighter number on dark backgrounds */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.element .symbol {
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: auto;
+  line-height: 1;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Shadow for symbols */
+}
+
+.element .name {
+  font-size: 0.65em;
+  font-weight: 500;
+  margin-top: auto;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  padding: 0 2px;
+  box-sizing: border-box;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Shadow for names */
+}
+
+/* --- Category Colors (More vibrant) --- */
+.alkali-metal {
+  background-color: #ff6347;
+} /* Tomato */
+.alkaline-earth-metal {
+  background-color: #ffa07a;
+} /* LightSalmon */
+.transition-metal {
+  background-color: #ffd700;
+} /* Gold */
+.post-transition-metal {
+  background-color: #32cd32;
+} /* LimeGreen */
+.metalloid {
+  background-color: #00ced1;
+} /* DarkTurquoise */
+.nonmetal {
+  background-color: #1e90ff;
+} /* DodgerBlue */
+.noble-gas {
+  background-color: #9370db;
+} /* MediumPurple */
+.lanthanide {
+  background-color: #ff69b4;
+} /* HotPink */
+.actinide {
+  background-color: #ba55d3;
+} /* MediumOrchid */
+.unknown {
+  background-color: #a9a9a9;
+} /* DarkGrey */
+
+/* --- Element Details Area --- */
+#element-details {
+  margin-top: 30px; /* More margin */
+  padding: 25px; /* More padding */
+  border: 2px solid #00ffff; /* Vibrant border matching H1/Hover */
+  background-color: rgba(42, 42, 74, 0.8); /* Same as legend */
+  color: #e0e0e0;
+  width: 100%;
+  max-width: 650px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 255, 255, 0.4); /* Glowing border shadow */
+  box-sizing: border-box;
+  border-radius: 10px; /* More rounded */
+}
+
+#element-details h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #00ffff; /* Matching theme */
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+}
+
+#element-details p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+#element-details p strong {
+  display: inline-block;
+  width: 150px;
+  margin-right: 10px;
+  font-weight: 600;
+  color: #a0a0ff; /* Light purple-blue accent color */
+}
+
+/* --- Responsive Adjustments --- */
+
+/* For smaller screens (e.g., tablets in portrait) */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff,
+      0 0 15px rgba(0, 255, 255, 0.3); /* Reduced glow */
+    letter-spacing: 1px;
+  }
+
+  .periodic-table-container {
+    /* Adjusted padding */
+    padding-left: 25px;
+    padding-right: 25px;
+    /* Increased and equal top/bottom padding */
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  #periodic-table {
+    grid-template-columns: repeat(18, minmax(0, 1fr));
+    grid-auto-rows: minmax(55px, auto);
+    gap: 3px;
+  }
+
+  .element {
+    padding: 2px;
+    font-size: 0.7em;
+    border-radius: 5px;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Reduced normal shadow */
+  }
+
+  .element:hover {
+    transform: scale(1.05) translateY(-3px); /* Reduced hover effect */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5),
+      /* Keep some depth */ 0 0 10px rgba(0, 255, 255, 0.6),
+      /* Cyan glow */ 0 0 15px rgba(138, 43, 226, 0.4); /* Violet glow */
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .element .atomic-number {
+    top: 1px;
+    left: 2px;
+    font-size: 0.7em;
+    text-shadow: none; /* Remove shadow on numbers on smaller screens */
+  }
+
+  .element .symbol {
+    font-size: 1.6em;
+    margin: 2px 0;
+    margin-top: auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Slightly reduced shadow */
+  }
+
+  .element .name {
+    font-size: 0.5em; /* Slightly smaller name */
+    margin-top: auto;
+    line-height: 1.1;
+    padding: 0 1px;
+    text-shadow: none; /* Remove shadow on names */
+  }
+
+  #element-details,
+  #legend {
+    padding: 15px;
+    font-size: 0.9em;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+    border-width: 1px; /* Thinner border */
+  }
+
+  #legend-items {
+    gap: 15px;
+  }
+  .legend-color-swatch {
+    width: 18px;
+    height: 18px;
+  }
+
+  #element-details p strong {
+    width: 120px;
+    margin-right: 8px;
+  }
+}
+
+/* For very small screens (e.g., phones) */
+@media (max-width: 480px) {
+  body {
+    padding: 8px;
+  }
+  h1 {
+    font-size: 1.3em; /* Smaller title */
+    margin-bottom: 15px;
+    text-shadow: 0 0 3px #00ffff, 0 0 8px #00ffff; /* Minimal glow */
+    letter-spacing: 1px;
+  }
+
+  .periodic-table-container {
+    /* Adjusted padding */
+    padding-left: 15px;
+    padding-right: 15px;
+    /* Increased and equal top/bottom padding */
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #periodic-table {
+    grid-auto-rows: minmax(45px, auto);
+    gap: 2px;
+  }
+
+  .element {
+    padding: 1px;
+    font-size: 0.5em;
+    border-radius: 4px;
+    justify-content: space-between;
+    box-shadow: none; /* Remove element shadows */
+    border: none; /* Remove element borders */
+  }
+  /* Add a slight background to the elements themselves */
+  .element.alkali-metal {
+    background-color: rgba(255, 99, 71, 0.9);
+  }
+  .element.alkaline-earth-metal {
+    background-color: rgba(250, 128, 114, 0.9);
+  }
+  .element.transition-metal {
+    background-color: rgba(255, 215, 0, 0.9);
+  }
+  .element.post-transition-metal {
+    background-color: rgba(50, 205, 50, 0.9);
+  }
+  .element.metalloid {
+    background-color: rgba(0, 206, 209, 0.9);
+  }
+  .element.nonmetal {
+    background-color: rgba(30, 144, 255, 0.9);
+  }
+  .element.noble-gas {
+    background-color: rgba(147, 112, 219, 0.9);
+  }
+  .element.lanthanide {
+    background-color: rgba(255, 105, 180, 0.9);
+  }
+  .element.actinide {
+    background-color: rgba(186, 85, 211, 0.9);
+  }
+  .element.unknown {
+    background-color: rgba(169, 169, 169, 0.9);
+  }
+
+  .element:hover {
+    transform: scale(1.1); /* Simple scale on hover */
+    box-shadow: 0 0 8px rgba(0, 255, 255, 0.8); /* Simple cyan glow */
+    border: none; /* Ensure border is gone */
+    outline: 1px solid rgba(255, 255, 255, 0.5); /* Subtle outline */
+    z-index: 3; /* Ensure hover is above elements + legend/details */
+  }
+
+  .element .atomic-number {
+    top: 0px;
+    left: 1px;
+    font-size: 0.6em;
+    text-shadow: none;
+    color: rgba(255, 255, 255, 0.8); /* Lighter number for better visibility */
+  }
+  .element.noble-gas .atomic-number, /* Noble gases are lighter, keep dark number */
+      .element.nonmetal .atomic-number {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .element .symbol {
+    font-size: 1.2em;
+    margin: 1px 0;
+    margin-top: auto;
+    text-shadow: none; /* Remove shadow on symbol */
+    color: #fff; /* Force white symbols on dark backgrounds */
+  }
+  .element.noble-gas .symbol,
+  .element.nonmetal .symbol {
+    color: #1a1a2e; /* Dark symbols on light backgrounds */
+  }
+
+  .element .name {
+    display: none; /* Hide name on tiny screens */
+  }
+
+  #element-details,
+  #legend {
+    padding: 10px;
+    font-size: 0.8em; /* Slightly smaller text */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Minimal shadow */
+    border-width: 1px; /* Thinner border */
+    z-index: 2; /* Ensure legend/details are below hovered elements */
+  }
+  #legend h3 {
+    font-size: 1em;
+    margin-bottom: 8px;
+    text-shadow: none;
+  }
+
+  #legend-items {
+    gap: 8px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 5px;
+  }
+  .legend-item {
+    flex-shrink: 0;
+  }
+
+  .legend-color-swatch {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    border: none; /* Remove swatch border */
+    box-shadow: none; /* Remove swatch shadow */
+  }
+
+  #element-details p strong {
+    width: 80px; /* Reduce label width */
+    margin-right: 5px;
+    font-weight: 500; /* Less bold labels */
+    color: #b0b0b0; /* Mute label color more */
+  }
+}

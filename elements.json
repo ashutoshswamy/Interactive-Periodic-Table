@@ -1,0 +1,1182 @@
+[
+  {
+    "name": "Hydrogen",
+    "symbol": "H",
+    "number": 1,
+    "mass": 1.008,
+    "category": "nonmetal",
+    "xpos": 1,
+    "ypos": 1,
+    "description": "The lightest element, abundant in the universe."
+  },
+  {
+    "name": "Helium",
+    "symbol": "He",
+    "number": 2,
+    "mass": 4.0026,
+    "category": "noble-gas",
+    "xpos": 18,
+    "ypos": 1,
+    "description": "A noble gas, second lightest element."
+  },
+  {
+    "name": "Lithium",
+    "symbol": "Li",
+    "number": 3,
+    "mass": 6.94,
+    "category": "alkali-metal",
+    "xpos": 1,
+    "ypos": 2,
+    "description": "An alkali metal, used in batteries."
+  },
+  {
+    "name": "Beryllium",
+    "symbol": "Be",
+    "number": 4,
+    "mass": 9.0122,
+    "category": "alkaline-earth-metal",
+    "xpos": 2,
+    "ypos": 2,
+    "description": "An alkaline earth metal, used in alloys."
+  },
+  {
+    "name": "Boron",
+    "symbol": "B",
+    "number": 5,
+    "mass": 10.81,
+    "category": "metalloid",
+    "xpos": 13,
+    "ypos": 2,
+    "description": "A metalloid, used in glass and ceramics."
+  },
+  {
+    "name": "Carbon",
+    "symbol": "C",
+    "number": 6,
+    "mass": 12.011,
+    "category": "nonmetal",
+    "xpos": 14,
+    "ypos": 2,
+    "description": "The basis of organic chemistry."
+  },
+  {
+    "name": "Nitrogen",
+    "symbol": "N",
+    "number": 7,
+    "mass": 14.007,
+    "category": "nonmetal",
+    "xpos": 15,
+    "ypos": 2,
+    "description": "A nonmetal, makes up most of Earth's atmosphere."
+  },
+  {
+    "name": "Oxygen",
+    "symbol": "O",
+    "number": 8,
+    "mass": 15.999,
+    "category": "nonmetal",
+    "xpos": 16,
+    "ypos": 2,
+    "description": "Essential for respiration and combustion."
+  },
+  {
+    "name": "Fluorine",
+    "symbol": "F",
+    "number": 9,
+    "mass": 18.998,
+    "category": "nonmetal",
+    "xpos": 17,
+    "ypos": 2,
+    "description": "A highly reactive halogen."
+  },
+  {
+    "name": "Neon",
+    "symbol": "Ne",
+    "number": 10,
+    "mass": 20.18,
+    "category": "noble-gas",
+    "xpos": 18,
+    "ypos": 2,
+    "description": "A noble gas, used in neon signs."
+  },
+  {
+    "name": "Sodium",
+    "symbol": "Na",
+    "number": 11,
+    "mass": 22.99,
+    "category": "alkali-metal",
+    "xpos": 1,
+    "ypos": 3,
+    "description": "An alkali metal, component of table salt."
+  },
+  {
+    "name": "Magnesium",
+    "symbol": "Mg",
+    "number": 12,
+    "mass": 24.305,
+    "category": "alkaline-earth-metal",
+    "xpos": 2,
+    "ypos": 3,
+    "description": "An alkaline earth metal, lightweight and strong."
+  },
+  {
+    "name": "Aluminum",
+    "symbol": "Al",
+    "number": 13,
+    "mass": 26.982,
+    "category": "post-transition-metal",
+    "xpos": 13,
+    "ypos": 3,
+    "description": "A post-transition metal, widely used in construction."
+  },
+  {
+    "name": "Silicon",
+    "symbol": "Si",
+    "number": 14,
+    "mass": 28.085,
+    "category": "metalloid",
+    "xpos": 14,
+    "ypos": 3,
+    "description": "A metalloid, essential in semiconductors."
+  },
+  {
+    "name": "Phosphorus",
+    "symbol": "P",
+    "number": 15,
+    "mass": 30.974,
+    "category": "nonmetal",
+    "xpos": 15,
+    "ypos": 3,
+    "description": "A nonmetal, important in biological molecules."
+  },
+  {
+    "name": "Sulfur",
+    "symbol": "S",
+    "number": 16,
+    "mass": 32.06,
+    "category": "nonmetal",
+    "xpos": 16,
+    "ypos": 3,
+    "description": "A nonmetal, known for its yellow color."
+  },
+  {
+    "name": "Chlorine",
+    "symbol": "Cl",
+    "number": 17,
+    "mass": 35.45,
+    "category": "nonmetal",
+    "xpos": 17,
+    "ypos": 3,
+    "description": "A highly reactive halogen, used for disinfection."
+  },
+  {
+    "name": "Argon",
+    "symbol": "Ar",
+    "number": 18,
+    "mass": 39.948,
+    "category": "noble-gas",
+    "xpos": 18,
+    "ypos": 3,
+    "description": "A noble gas, used in welding."
+  },
+  {
+    "name": "Potassium",
+    "symbol": "K",
+    "number": 19,
+    "mass": 39.098,
+    "category": "alkali-metal",
+    "xpos": 1,
+    "ypos": 4,
+    "description": "An alkali metal, vital electrolyte."
+  },
+  {
+    "name": "Calcium",
+    "symbol": "Ca",
+    "number": 20,
+    "mass": 40.078,
+    "category": "alkaline-earth-metal",
+    "xpos": 2,
+    "ypos": 4,
+    "description": "An alkaline earth metal, important for bones."
+  },
+  {
+    "name": "Scandium",
+    "symbol": "Sc",
+    "number": 21,
+    "mass": 44.956,
+    "category": "transition-metal",
+    "xpos": 3,
+    "ypos": 4,
+    "description": "A transition metal, used in aerospace."
+  },
+  {
+    "name": "Titanium",
+    "symbol": "Ti",
+    "number": 22,
+    "mass": 47.867,
+    "category": "transition-metal",
+    "xpos": 4,
+    "ypos": 4,
+    "description": "A transition metal, strong and lightweight."
+  },
+  {
+    "name": "Vanadium",
+    "symbol": "V",
+    "number": 23,
+    "mass": 50.942,
+    "category": "transition-metal",
+    "xpos": 5,
+    "ypos": 4,
+    "description": "A transition metal, used in steel alloys."
+  },
+  {
+    "name": "Chromium",
+    "symbol": "Cr",
+    "number": 24,
+    "mass": 51.996,
+    "category": "transition-metal",
+    "xpos": 6,
+    "ypos": 4,
+    "description": "A transition metal, used in stainless steel."
+  },
+  {
+    "name": "Manganese",
+    "symbol": "Mn",
+    "number": 25,
+    "mass": 54.938,
+    "category": "transition-metal",
+    "xpos": 7,
+    "ypos": 4,
+    "description": "A transition metal, important in steel production."
+  },
+  {
+    "name": "Iron",
+    "symbol": "Fe",
+    "number": 26,
+    "mass": 55.845,
+    "category": "transition-metal",
+    "xpos": 8,
+    "ypos": 4,
+    "description": "A transition metal, common structural material."
+  },
+  {
+    "name": "Cobalt",
+    "symbol": "Co",
+    "number": 27,
+    "mass": 58.933,
+    "category": "transition-metal",
+    "xpos": 9,
+    "ypos": 4,
+    "description": "A transition metal, used in magnets."
+  },
+  {
+    "name": "Nickel",
+    "symbol": "Ni",
+    "number": 28,
+    "mass": 58.693,
+    "category": "transition-metal",
+    "xpos": 10,
+    "ypos": 4,
+    "description": "A transition metal, used in alloys and coins."
+  },
+  {
+    "name": "Copper",
+    "symbol": "Cu",
+    "number": 29,
+    "mass": 63.546,
+    "category": "transition-metal",
+    "xpos": 11,
+    "ypos": 4,
+    "description": "A transition metal, excellent conductor of electricity."
+  },
+  {
+    "name": "Zinc",
+    "symbol": "Zn",
+    "number": 30,
+    "mass": 65.38,
+    "category": "transition-metal",
+    "xpos": 12,
+    "ypos": 4,
+    "description": "A transition metal, used for galvanizing steel."
+  },
+  {
+    "name": "Gallium",
+    "symbol": "Ga",
+    "number": 31,
+    "mass": 69.723,
+    "category": "post-transition-metal",
+    "xpos": 13,
+    "ypos": 4,
+    "description": "A post-transition metal, melts just above room temperature."
+  },
+  {
+    "name": "Germanium",
+    "symbol": "Ge",
+    "number": 32,
+    "mass": 72.63,
+    "category": "metalloid",
+    "xpos": 14,
+    "ypos": 4,
+    "description": "A metalloid, used in electronics."
+  },
+  {
+    "name": "Arsenic",
+    "symbol": "As",
+    "number": 33,
+    "mass": 74.922,
+    "category": "metalloid",
+    "xpos": 15,
+    "ypos": 4,
+    "description": "A metalloid, known for its toxicity."
+  },
+  {
+    "name": "Selenium",
+    "symbol": "Se",
+    "number": 34,
+    "mass": 78.971,
+    "category": "nonmetal",
+    "xpos": 16,
+    "ypos": 4,
+    "description": "A nonmetal, used in electronics and pigments."
+  },
+  {
+    "name": "Bromine",
+    "symbol": "Br",
+    "number": 35,
+    "mass": 79.904,
+    "category": "nonmetal",
+    "xpos": 17,
+    "ypos": 4,
+    "description": "A halogen, liquid at room temperature."
+  },
+  {
+    "name": "Krypton",
+    "symbol": "Kr",
+    "number": 36,
+    "mass": 83.798,
+    "category": "noble-gas",
+    "xpos": 18,
+    "ypos": 4,
+    "description": "A noble gas, used in lighting."
+  },
+  {
+    "name": "Rubidium",
+    "symbol": "Rb",
+    "number": 37,
+    "mass": 85.468,
+    "category": "alkali-metal",
+    "xpos": 1,
+    "ypos": 5,
+    "description": "An alkali metal, highly reactive."
+  },
+  {
+    "name": "Strontium",
+    "symbol": "Sr",
+    "number": 38,
+    "mass": 87.62,
+    "category": "alkaline-earth-metal",
+    "xpos": 2,
+    "ypos": 5,
+    "description": "An alkaline earth metal, used in fireworks."
+  },
+  {
+    "name": "Yttrium",
+    "symbol": "Y",
+    "number": 39,
+    "mass": 88.906,
+    "category": "transition-metal",
+    "xpos": 3,
+    "ypos": 5,
+    "description": "A transition metal, used in phosphors."
+  },
+  {
+    "name": "Zirconium",
+    "symbol": "Zr",
+    "number": 40,
+    "mass": 91.224,
+    "category": "transition-metal",
+    "xpos": 4,
+    "ypos": 5,
+    "description": "A transition metal, used in nuclear reactors."
+  },
+  {
+    "name": "Niobium",
+    "symbol": "Nb",
+    "number": 41,
+    "mass": 92.906,
+    "category": "transition-metal",
+    "xpos": 5,
+    "ypos": 5,
+    "description": "A transition metal, used in alloys."
+  },
+  {
+    "name": "Molybdenum",
+    "symbol": "Mo",
+    "number": 42,
+    "mass": 95.95,
+    "category": "transition-metal",
+    "xpos": 6,
+    "ypos": 5,
+    "description": "A transition metal, used in steel alloys."
+  },
+  {
+    "name": "Technetium",
+    "symbol": "Tc",
+    "number": 43,
+    "mass": 98.907,
+    "category": "transition-metal",
+    "xpos": 7,
+    "ypos": 5,
+    "description": "A radioactive transition metal, used in medical imaging."
+  },
+  {
+    "name": "Ruthenium",
+    "symbol": "Ru",
+    "number": 44,
+    "mass": 101.07,
+    "category": "transition-metal",
+    "xpos": 8,
+    "ypos": 5,
+    "description": "A transition metal, used in electrical contacts."
+  },
+  {
+    "name": "Rhodium",
+    "symbol": "Rh",
+    "number": 45,
+    "mass": 102.91,
+    "category": "transition-metal",
+    "xpos": 9,
+    "ypos": 5,
+    "description": "A transition metal, used in catalytic converters."
+  },
+  {
+    "name": "Palladium",
+    "symbol": "Pd",
+    "number": 46,
+    "mass": 106.42,
+    "category": "transition-metal",
+    "xpos": 10,
+    "ypos": 5,
+    "description": "A transition metal, used in catalytic converters and jewelry."
+  },
+  {
+    "name": "Silver",
+    "symbol": "Ag",
+    "number": 47,
+    "mass": 107.87,
+    "category": "transition-metal",
+    "xpos": 11,
+    "ypos": 5,
+    "description": "A transition metal, precious metal, excellent conductor."
+  },
+  {
+    "name": "Cadmium",
+    "symbol": "Cd",
+    "number": 48,
+    "mass": 112.41,
+    "category": "transition-metal",
+    "xpos": 12,
+    "ypos": 5,
+    "description": "A transition metal, toxic, used in batteries."
+  },
+  {
+    "name": "Indium",
+    "symbol": "In",
+    "number": 49,
+    "mass": 114.82,
+    "category": "post-transition-metal",
+    "xpos": 13,
+    "ypos": 5,
+    "description": "A post-transition metal, soft, used in displays."
+  },
+  {
+    "name": "Tin",
+    "symbol": "Sn",
+    "number": 50,
+    "mass": 118.71,
+    "category": "post-transition-metal",
+    "xpos": 14,
+    "ypos": 5,
+    "description": "A post-transition metal, used in solder."
+  },
+  {
+    "name": "Antimony",
+    "symbol": "Sb",
+    "number": 51,
+    "mass": 121.76,
+    "category": "metalloid",
+    "xpos": 15,
+    "ypos": 5,
+    "description": "A metalloid, used in flame retardants."
+  },
+  {
+    "name": "Tellurium",
+    "symbol": "Te",
+    "number": 52,
+    "mass": 127.6,
+    "category": "metalloid",
+    "xpos": 16,
+    "ypos": 5,
+    "description": "A metalloid, used in solar panels."
+  },
+  {
+    "name": "Iodine",
+    "symbol": "I",
+    "number": 53,
+    "mass": 126.9,
+    "category": "nonmetal",
+    "xpos": 17,
+    "ypos": 5,
+    "description": "A halogen, important for thyroid function."
+  },
+  {
+    "name": "Xenon",
+    "symbol": "Xe",
+    "number": 54,
+    "mass": 131.29,
+    "category": "noble-gas",
+    "xpos": 18,
+    "ypos": 5,
+    "description": "A noble gas, used in lights."
+  },
+  {
+    "name": "Cesium",
+    "symbol": "Cs",
+    "number": 55,
+    "mass": 132.91,
+    "category": "alkali-metal",
+    "xpos": 1,
+    "ypos": 6,
+    "description": "An alkali metal, used in atomic clocks."
+  },
+  {
+    "name": "Barium",
+    "symbol": "Ba",
+    "number": 56,
+    "mass": 137.33,
+    "category": "alkaline-earth-metal",
+    "xpos": 2,
+    "ypos": 6,
+    "description": "An alkaline earth metal, used in medical imaging."
+  },
+  {
+    "name": "Lanthanum",
+    "symbol": "La",
+    "number": 57,
+    "mass": 138.91,
+    "category": "lanthanide",
+    "xpos": 3,
+    "ypos": 6,
+    "description": "A lanthanide, often grouped with group 3 elements."
+  },
+  {
+    "name": "Cerium",
+    "symbol": "Ce",
+    "number": 58,
+    "mass": 140.12,
+    "category": "lanthanide",
+    "xpos": 4,
+    "ypos": 8,
+    "description": "A lanthanide, used in alloys."
+  },
+  {
+    "name": "Praseodymium",
+    "symbol": "Pr",
+    "number": 59,
+    "mass": 140.91,
+    "category": "lanthanide",
+    "xpos": 5,
+    "ypos": 8,
+    "description": "A lanthanide, used in magnets."
+  },
+  {
+    "name": "Neodymium",
+    "symbol": "Nd",
+    "number": 60,
+    "mass": 144.24,
+    "category": "lanthanide",
+    "xpos": 6,
+    "ypos": 8,
+    "description": "A lanthanide, used in powerful magnets."
+  },
+  {
+    "name": "Promethium",
+    "symbol": "Pm",
+    "number": 61,
+    "mass": 144.91,
+    "category": "lanthanide",
+    "xpos": 7,
+    "ypos": 8,
+    "description": "A radioactive lanthanide."
+  },
+  {
+    "name": "Samarium",
+    "symbol": "Sm",
+    "number": 62,
+    "mass": 150.36,
+    "category": "lanthanide",
+    "xpos": 8,
+    "ypos": 8,
+    "description": "A lanthanide, used in magnets."
+  },
+  {
+    "name": "Europium",
+    "symbol": "Eu",
+    "number": 63,
+    "mass": 151.96,
+    "category": "lanthanide",
+    "xpos": 9,
+    "ypos": 8,
+    "description": "A lanthanide, used in phosphors."
+  },
+  {
+    "name": "Gadolinium",
+    "symbol": "Gd",
+    "number": 64,
+    "mass": 157.25,
+    "category": "lanthanide",
+    "xpos": 10,
+    "ypos": 8,
+    "description": "A lanthanide, used in MRI contrast agents."
+  },
+  {
+    "name": "Terbium",
+    "symbol": "Tb",
+    "number": 65,
+    "mass": 158.93,
+    "category": "lanthanide",
+    "xpos": 11,
+    "ypos": 8,
+    "description": "A lanthanide, used in phosphors."
+  },
+  {
+    "name": "Dysprosium",
+    "symbol": "Dy",
+    "number": 66,
+    "mass": 162.5,
+    "category": "lanthanide",
+    "xpos": 12,
+    "ypos": 8,
+    "description": "A lanthanide, used in magnets."
+  },
+  {
+    "name": "Holmium",
+    "symbol": "Ho",
+    "number": 67,
+    "mass": 164.93,
+    "category": "lanthanide",
+    "xpos": 13,
+    "ypos": 8,
+    "description": "A lanthanide, used in lasers."
+  },
+  {
+    "name": "Erbium",
+    "symbol": "Er",
+    "number": 68,
+    "mass": 167.26,
+    "category": "lanthanide",
+    "xpos": 14,
+    "ypos": 8,
+    "description": "A lanthanide, used in fiber optics."
+  },
+  {
+    "name": "Thulium",
+    "symbol": "Tm",
+    "number": 69,
+    "mass": 168.93,
+    "category": "lanthanide",
+    "xpos": 15,
+    "ypos": 8,
+    "description": "A lanthanide, used in portable X-ray machines."
+  },
+  {
+    "name": "Ytterbium",
+    "symbol": "Yb",
+    "number": 70,
+    "mass": 173.05,
+    "category": "lanthanide",
+    "xpos": 16,
+    "ypos": 8,
+    "description": "A lanthanide, used in alloys."
+  },
+  {
+    "name": "Lutetium",
+    "symbol": "Lu",
+    "number": 71,
+    "mass": 174.97,
+    "category": "lanthanide",
+    "xpos": 17,
+    "ypos": 8,
+    "description": "A lanthanide, used in catalysts."
+  },
+  {
+    "name": "Hafnium",
+    "symbol": "Hf",
+    "number": 72,
+    "mass": 178.49,
+    "category": "transition-metal",
+    "xpos": 4,
+    "ypos": 6,
+    "description": "A transition metal, corrosion resistant."
+  },
+  {
+    "name": "Tantalum",
+    "symbol": "Ta",
+    "number": 73,
+    "mass": 180.95,
+    "category": "transition-metal",
+    "xpos": 5,
+    "ypos": 6,
+    "description": "A transition metal, highly corrosion resistant."
+  },
+  {
+    "name": "Tungsten",
+    "symbol": "W",
+    "number": 74,
+    "mass": 183.84,
+    "category": "transition-metal",
+    "xpos": 6,
+    "ypos": 6,
+    "description": "A transition metal, very high melting point."
+  },
+  {
+    "name": "Rhenium",
+    "symbol": "Re",
+    "number": 75,
+    "mass": 186.21,
+    "category": "transition-metal",
+    "xpos": 7,
+    "ypos": 6,
+    "description": "A transition metal, high melting point."
+  },
+  {
+    "name": "Osmium",
+    "symbol": "Os",
+    "number": 76,
+    "mass": 190.23,
+    "category": "transition-metal",
+    "xpos": 8,
+    "ypos": 6,
+    "description": "A transition metal, very dense."
+  },
+  {
+    "name": "Iridium",
+    "symbol": "Ir",
+    "number": 77,
+    "mass": 192.22,
+    "category": "transition-metal",
+    "xpos": 9,
+    "ypos": 6,
+    "description": "A transition metal, corrosion resistant, used in alloys."
+  },
+  {
+    "name": "Platinum",
+    "symbol": "Pt",
+    "number": 78,
+    "mass": 195.08,
+    "category": "transition-metal",
+    "xpos": 10,
+    "ypos": 6,
+    "description": "A transition metal, precious metal, catalyst."
+  },
+  {
+    "name": "Gold",
+    "symbol": "Au",
+    "number": 79,
+    "mass": 196.97,
+    "category": "transition-metal",
+    "xpos": 11,
+    "ypos": 6,
+    "description": "A transition metal, precious metal, highly unreactive."
+  },
+  {
+    "name": "Mercury",
+    "symbol": "Hg",
+    "number": 80,
+    "mass": 200.59,
+    "category": "transition-metal",
+    "xpos": 12,
+    "ypos": 6,
+    "description": "A transition metal, liquid at room temperature, toxic."
+  },
+  {
+    "name": "Thallium",
+    "symbol": "Tl",
+    "number": 81,
+    "mass": 204.38,
+    "category": "post-transition-metal",
+    "xpos": 13,
+    "ypos": 6,
+    "description": "A post-transition metal, toxic."
+  },
+  {
+    "name": "Lead",
+    "symbol": "Pb",
+    "number": 82,
+    "mass": 207.2,
+    "category": "post-transition-metal",
+    "xpos": 14,
+    "ypos": 6,
+    "description": "A post-transition metal, dense, toxic."
+  },
+  {
+    "name": "Bismuth",
+    "symbol": "Bi",
+    "number": 83,
+    "mass": 208.98,
+    "category": "post-transition-metal",
+    "xpos": 15,
+    "ypos": 6,
+    "description": "A post-transition metal, least toxic heavy metal."
+  },
+  {
+    "name": "Polonium",
+    "symbol": "Po",
+    "number": 84,
+    "mass": 208.98,
+    "category": "metalloid",
+    "xpos": 16,
+    "ypos": 6,
+    "description": "A radioactive metalloid."
+  },
+  {
+    "name": "Astatine",
+    "symbol": "At",
+    "number": 85,
+    "mass": 209.99,
+    "category": "metalloid",
+    "xpos": 17,
+    "ypos": 6,
+    "description": "A rare and radioactive metalloid."
+  },
+  {
+    "name": "Radon",
+    "symbol": "Rn",
+    "number": 86,
+    "mass": 222.02,
+    "category": "noble-gas",
+    "xpos": 18,
+    "ypos": 6,
+    "description": "A radioactive noble gas."
+  },
+  {
+    "name": "Francium",
+    "symbol": "Fr",
+    "number": 87,
+    "mass": 223.02,
+    "category": "alkali-metal",
+    "xpos": 1,
+    "ypos": 7,
+    "description": "A highly radioactive alkali metal."
+  },
+  {
+    "name": "Radium",
+    "symbol": "Ra",
+    "number": 88,
+    "mass": 226.03,
+    "category": "alkaline-earth-metal",
+    "xpos": 2,
+    "ypos": 7,
+    "description": "A radioactive alkaline earth metal."
+  },
+  {
+    "name": "Actinium",
+    "symbol": "Ac",
+    "number": 89,
+    "mass": 227.03,
+    "category": "actinide",
+    "xpos": 3,
+    "ypos": 7,
+    "description": "An actinide, often grouped with group 3 elements."
+  },
+  {
+    "name": "Thorium",
+    "symbol": "Th",
+    "number": 90,
+    "mass": 232.04,
+    "category": "actinide",
+    "xpos": 4,
+    "ypos": 9,
+    "description": "An actinide, radioactive, potential fuel."
+  },
+  {
+    "name": "Protactinium",
+    "symbol": "Pa",
+    "number": 91,
+    "mass": 231.04,
+    "category": "actinide",
+    "xpos": 5,
+    "ypos": 9,
+    "description": "An actinide, highly radioactive."
+  },
+  {
+    "name": "Uranium",
+    "symbol": "U",
+    "number": 92,
+    "mass": 238.03,
+    "category": "actinide",
+    "xpos": 6,
+    "ypos": 9,
+    "description": "An actinide, radioactive, used in nuclear fuel."
+  },
+  {
+    "name": "Neptunium",
+    "symbol": "Np",
+    "number": 93,
+    "mass": 237.05,
+    "category": "actinide",
+    "xpos": 7,
+    "ypos": 9,
+    "description": "A synthetic, radioactive actinide."
+  },
+  {
+    "name": "Plutonium",
+    "symbol": "Pu",
+    "number": 94,
+    "mass": 244.06,
+    "category": "actinide",
+    "xpos": 8,
+    "ypos": 9,
+    "description": "A radioactive actinide, used in nuclear weapons."
+  },
+  {
+    "name": "Americium",
+    "symbol": "Am",
+    "number": 95,
+    "mass": 243.06,
+    "category": "actinide",
+    "xpos": 9,
+    "ypos": 9,
+    "description": "A synthetic, radioactive actinide, used in smoke detectors."
+  },
+  {
+    "name": "Curium",
+    "symbol": "Cm",
+    "number": 96,
+    "mass": 247.07,
+    "category": "actinide",
+    "xpos": 10,
+    "ypos": 9,
+    "description": "A synthetic, radioactive actinide."
+  },
+  {
+    "name": "Berkelium",
+    "symbol": "Bk",
+    "number": 97,
+    "mass": 247.07,
+    "category": "actinide",
+    "xpos": 11,
+    "ypos": 9,
+    "description": "A synthetic, radioactive actinide."
+  },
+  {
+    "name": "Californium",
+    "symbol": "Cf",
+    "number": 98,
+    "mass": 251.08,
+    "category": "actinide",
+    "xpos": 12,
+    "ypos": 9,
+    "description": "A synthetic, radioactive actinide, used in neutron sources."
+  },
+  {
+    "name": "Einsteinium",
+    "symbol": "Es",
+    "number": 99,
+    "mass": 252.08,
+    "category": "actinide",
+    "xpos": 13,
+    "ypos": 9,
+    "description": "A synthetic, highly radioactive actinide."
+  },
+  {
+    "name": "Fermium",
+    "symbol": "Fm",
+    "number": 100,
+    "mass": 257.1,
+    "category": "actinide",
+    "xpos": 14,
+    "ypos": 9,
+    "description": "A synthetic, highly radioactive actinide."
+  },
+  {
+    "name": "Mendelevium",
+    "symbol": "Md",
+    "number": 101,
+    "mass": 258.1,
+    "category": "actinide",
+    "xpos": 15,
+    "ypos": 9,
+    "description": "A synthetic, highly radioactive actinide."
+  },
+  {
+    "name": "Nobelium",
+    "symbol": "No",
+    "number": 102,
+    "mass": 259.1,
+    "category": "actinide",
+    "xpos": 16,
+    "ypos": 9,
+    "description": "A synthetic, highly radioactive actinide."
+  },
+  {
+    "name": "Lawrencium",
+    "symbol": "Lr",
+    "number": 103,
+    "mass": 266.12,
+    "category": "actinide",
+    "xpos": 17,
+    "ypos": 9,
+    "description": "A synthetic, highly radioactive actinide."
+  },
+  {
+    "name": "Rutherfordium",
+    "symbol": "Rf",
+    "number": 104,
+    "mass": 267.12,
+    "category": "transition-metal",
+    "xpos": 4,
+    "ypos": 7,
+    "description": "A synthetic and radioactive transition metal."
+  },
+  {
+    "name": "Dubnium",
+    "symbol": "Db",
+    "number": 105,
+    "mass": 268.13,
+    "category": "transition-metal",
+    "xpos": 5,
+    "ypos": 7,
+    "description": "A synthetic and radioactive transition metal."
+  },
+  {
+    "name": "Seaborgium",
+    "symbol": "Sg",
+    "number": 106,
+    "mass": 269.13,
+    "category": "transition-metal",
+    "xpos": 6,
+    "ypos": 7,
+    "description": "A synthetic and radioactive transition metal."
+  },
+  {
+    "name": "Bohrium",
+    "symbol": "Bh",
+    "number": 107,
+    "mass": 270.13,
+    "category": "transition-metal",
+    "xpos": 7,
+    "ypos": 7,
+    "description": "A synthetic and radioactive transition metal."
+  },
+  {
+    "name": "Hassium",
+    "symbol": "Hs",
+    "number": 108,
+    "mass": 269.13,
+    "category": "transition-metal",
+    "xpos": 8,
+    "ypos": 7,
+    "description": "A synthetic and radioactive transition metal."
+  },
+  {
+    "name": "Meitnerium",
+    "symbol": "Mt",
+    "number": 109,
+    "mass": 277.15,
+    "category": "unknown",
+    "xpos": 9,
+    "ypos": 7,
+    "description": "A synthetic and radioactive element."
+  },
+  {
+    "name": "Darmstadtium",
+    "symbol": "Ds",
+    "number": 110,
+    "mass": 282.17,
+    "category": "unknown",
+    "xpos": 10,
+    "ypos": 7,
+    "description": "A synthetic and radioactive element."
+  },
+  {
+    "name": "Roentgenium",
+    "symbol": "Rg",
+    "number": 111,
+    "mass": 282.17,
+    "category": "unknown",
+    "xpos": 11,
+    "ypos": 7,
+    "description": "A synthetic and radioactive element."
+  },
+  {
+    "name": "Copernicium",
+    "symbol": "Cn",
+    "number": 112,
+    "mass": 286.18,
+    "category": "transition-metal",
+    "xpos": 12,
+    "ypos": 7,
+    "description": "A synthetic and radioactive transition metal."
+  },
+  {
+    "name": "Nihonium",
+    "symbol": "Nh",
+    "number": 113,
+    "mass": 286.18,
+    "category": "post-transition-metal",
+    "xpos": 13,
+    "ypos": 7,
+    "description": "A synthetic and radioactive element."
+  },
+  {
+    "name": "Flerovium",
+    "symbol": "Fl",
+    "number": 114,
+    "mass": 290.19,
+    "category": "post-transition-metal",
+    "xpos": 14,
+    "ypos": 7,
+    "description": "A synthetic and radioactive element."
+  },
+  {
+    "name": "Moscovium",
+    "symbol": "Mc",
+    "number": 115,
+    "mass": 290.19,
+    "category": "unknown",
+    "xpos": 15,
+    "ypos": 7,
+    "description": "A synthetic and radioactive element."
+  },
+  {
+    "name": "Livermorium",
+    "symbol": "Lv",
+    "number": 116,
+    "mass": 293.21,
+    "category": "post-transition-metal",
+    "xpos": 16,
+    "ypos": 7,
+    "description": "A synthetic and radioactive element."
+  },
+  {
+    "name": "Tennessine",
+    "symbol": "Ts",
+    "number": 117,
+    "mass": 294.21,
+    "category": "unknown",
+    "xpos": 17,
+    "ypos": 7,
+    "description": "A synthetic and radioactive element."
+  },
+  {
+    "name": "Oganesson",
+    "symbol": "Og",
+    "number": 118,
+    "mass": 295.22,
+    "category": "noble-gas",
+    "xpos": 18,
+    "ypos": 7,
+    "description": "A synthetic and radioactive noble gas."
+  }
+]
